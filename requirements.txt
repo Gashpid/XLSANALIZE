@@ -110,7 +110,7 @@ parso==0.8.2
 patsy==0.5.2
 pexpect==4.8.0
 pickleshare==0.7.5
-Pillow==8.0.1
+Pillow==9.0.1
 pipwin==0.5.1
 platformdirs==2.4.1
 playsound==1.2.2
