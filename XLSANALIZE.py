@@ -93,29 +93,5 @@ class XLSRead():
             self.sheet2save.write(i,0,org[0][i])
             self.sheet2save.write(i,1,values[i])
         
-
-XLSRead()
-
-
-
-"""
- 
-# For row 0 and column 0
-print(sheet.cell_value(0, 0))
-"""
-"""
-hoja.write(0,0,'PM2.5')
-hoja.write(0,1,'PM10')
-hoja.write(0,2,'Temperature')
-hoja.write(0,3,'Pressure')
-hoja.write(0,4,'Humidity')
-hoja.write(0,5,'Date/Time')
-
-for i in range(0,len(data)):
-    for k in range(0,len(data[i])):
-        hoja.write(i+1,k,data[i][k])
-
-libro.close()
-
-print('Done')
-"""
+if __name__ == '__main__':
+    XLSRead()
